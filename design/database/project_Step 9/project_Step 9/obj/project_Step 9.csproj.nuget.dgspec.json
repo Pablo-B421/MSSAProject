@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {}
+    "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {
+    "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
+        "projectUniqueName": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
         "projectName": "project_Step 9",
-        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
+        "projectPath": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
         "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\obj\\",
+        "outputPath": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\turck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
