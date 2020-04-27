@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {}
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj": {
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
-        "projectName": "project_Step 9",
-        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
+        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj",
+        "projectName": "BabyTracker",
+        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj",
         "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
         "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\obj\\",
         "projectStyle": "PackageReference",
