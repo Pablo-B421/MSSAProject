@@ -4945,17 +4945,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\turck\\.nuget\\packages\\": {}
+    "C:\\Users\\turck\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
-      "projectName": "project_Step 9",
-      "projectPath": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\project_Step 9.csproj",
+      "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj",
+      "projectName": "BabyTracker",
+      "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\BabyTracker.csproj",
       "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\turck\\Documents\\MSSA Cohort 8\\Notes\\Homework\\Project\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\obj\\",
+      "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\design\\database\\project_Step 9\\project_Step 9\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\turck\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -5007,7 +5011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
