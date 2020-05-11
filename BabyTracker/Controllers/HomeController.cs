@@ -14,11 +14,26 @@ namespace BabyTracker.Controllers
     {
         
 
-        public IActionResult Index()
+        public IActionResult HomePage()
+        {
+            return View();
+        }
+        public IActionResult NewProfile()
+        {
+            return View();
+        }
+        public IActionResult Calendar()
+        {
+            return View();
+        }
+        public IActionResult DiaperTracker()
+        {
+            return View();
+        }
+        public IActionResult FeedingTracker()
         {
             return View();
         }
 
-       
     }
 }

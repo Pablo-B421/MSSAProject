@@ -49,8 +49,12 @@ namespace BabyTracker
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    name: "HomePage",
+                    pattern: "{controller=Home}/{action=HomePage}/{id?}");
+
+                //endpoints.MapControllerRoute(
+                //    name: "NewProfilePage",
+                //    pattern: "{controller=Home}/{action=NewProfile}/{id?}");
             });
         }
     }
