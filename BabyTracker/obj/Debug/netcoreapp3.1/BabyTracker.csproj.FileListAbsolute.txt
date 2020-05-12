@@ -306,7 +306,6 @@ D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTrack
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.csprojAssemblyReference.cache
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.csproj.CoreCompileInputs.cache
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.MvcApplicationPartsAssemblyInfo.cache
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.RazorAssemblyInfo.cache
