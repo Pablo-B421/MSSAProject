@@ -20,6 +20,10 @@ namespace BabyTracker.Models
         [ForeignKey("UserID")]
         public Users Users { get; set; }
 
+        public List<Feeding> Feedings { get; set; }
+
+        
+
 
     }
 }
