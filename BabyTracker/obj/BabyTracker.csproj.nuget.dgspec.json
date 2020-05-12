@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\BabyTracker\\BabyTracker.csproj": {}
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker\\BabyTracker.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\BabyTracker\\BabyTracker.csproj": {
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker\\BabyTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\BabyTracker\\BabyTracker.csproj",
+        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker\\BabyTracker.csproj",
         "projectName": "BabyTracker",
-        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\BabyTracker\\BabyTracker.csproj",
+        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker\\BabyTracker.csproj",
         "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\MSSAProject\\BabyTracker\\obj\\",
+        "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

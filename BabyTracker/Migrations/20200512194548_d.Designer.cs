@@ -4,14 +4,16 @@ using BabyTracker.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BabyTracker.Migrations
 {
     [DbContext(typeof(BabyTrackerContext))]
-    partial class BabyTrackerContextModelSnapshot : ModelSnapshot
+    [Migration("20200512194548_d")]
+    partial class d
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,26 +46,6 @@ namespace BabyTracker.Migrations
                     b.HasIndex("UserID");
 
                     b.ToTable("BabyInfo");
-                });
-
-            modelBuilder.Entity("BabyTracker.Models.BabyMileStone", b =>
-                {
-                    b.Property<int>("MileStoneID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("BabyID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Month")
-                        .HasColumnType("int");
-
-                    b.HasKey("MileStoneID");
-
-                    b.HasIndex("BabyID");
-
-                    b.ToTable("BabyMileStone");
                 });
 
             modelBuilder.Entity("BabyTracker.Models.DiaperChange", b =>
@@ -123,15 +105,6 @@ namespace BabyTracker.Migrations
                     b.HasOne("BabyTracker.Models.Users", "Users")
                         .WithMany("BabyInfos")
                         .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("BabyTracker.Models.BabyMileStone", b =>
-                {
-                    b.HasOne("BabyTracker.Models.BabyInfo", "BabyInfo")
-                        .WithMany("BabyMileStones")
-                        .HasForeignKey("BabyID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
