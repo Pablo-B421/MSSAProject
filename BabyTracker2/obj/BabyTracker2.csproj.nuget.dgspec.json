@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\turck\\source\\repos\\BabyTracker2\\BabyTracker2.csproj": {}
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker2\\BabyTracker2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\turck\\source\\repos\\BabyTracker2\\BabyTracker2.csproj": {
+    "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker2\\BabyTracker2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\turck\\source\\repos\\BabyTracker2\\BabyTracker2.csproj",
+        "projectUniqueName": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker2\\BabyTracker2.csproj",
         "projectName": "BabyTracker2",
-        "projectPath": "C:\\Users\\turck\\source\\repos\\BabyTracker2\\BabyTracker2.csproj",
+        "projectPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker2\\BabyTracker2.csproj",
         "packagesPath": "C:\\Users\\turck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\turck\\source\\repos\\BabyTracker2\\obj\\",
+        "outputPath": "D:\\Documents\\Embry Riddle\\MSSA\\Project Repo\\VersionControl\\MSSAProject\\BabyTracker2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,11 +45,19 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [

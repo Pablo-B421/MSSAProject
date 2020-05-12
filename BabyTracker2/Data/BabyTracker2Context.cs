@@ -13,5 +13,8 @@ namespace BabyTracker2.Data
         {
         }
         public DbSet<Users> Users{ get; set; }
+        public DbSet<BabyTracker2.Models.BabyInfo> BabyInfo { get; set; }
+        public DbSet<BabyTracker2.Models.DiaperChange> DiaperChange { get; set; }
+        public DbSet<BabyTracker2.Models.Feeding> Feeding { get; set; }
     }
 }

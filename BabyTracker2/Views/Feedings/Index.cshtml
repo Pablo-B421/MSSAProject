@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BabyTracker2.Models.Feeding>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Feedings</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfFeedings)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FeedingTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BabyInfo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfFeedings)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FeedingTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BabyInfo.BabyID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.FeedingID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.FeedingID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.FeedingID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
