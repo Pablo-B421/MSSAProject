@@ -14,5 +14,7 @@ namespace BabyTracker.Data
         }
 
         public DbSet<Users> Users { get; set; } 
+
+        public DbSet<BabyTracker.Models.BabyInfo> BabyInfo { get; set; }
     }
 }

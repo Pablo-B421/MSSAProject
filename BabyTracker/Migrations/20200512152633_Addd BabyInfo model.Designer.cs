@@ -4,14 +4,16 @@ using BabyTracker.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BabyTracker.Migrations
 {
     [DbContext(typeof(BabyTrackerContext))]
-    partial class BabyTrackerContextModelSnapshot : ModelSnapshot
+    [Migration("20200512152633_Addd BabyInfo model")]
+    partial class AdddBabyInfomodel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -39,9 +41,12 @@ namespace BabyTracker.Migrations
                     b.Property<int>("UserID")
                         .HasColumnType("int");
 
+                    b.Property<int?>("UsersUserID")
+                        .HasColumnType("int");
+
                     b.HasKey("BabyID");
 
-                    b.HasIndex("UserID");
+                    b.HasIndex("UsersUserID");
 
                     b.ToTable("BabyInfo");
                 });
@@ -65,9 +70,7 @@ namespace BabyTracker.Migrations
                 {
                     b.HasOne("BabyTracker.Models.Users", "Users")
                         .WithMany("BabyInfos")
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsersUserID");
                 });
 #pragma warning restore 612, 618
         }
