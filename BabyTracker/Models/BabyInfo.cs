@@ -21,6 +21,8 @@ namespace BabyTracker.Models
         public Users Users { get; set; }
 
         public List<Feeding> Feedings { get; set; }
+        public List<DiaperChange> DiaperChanges { get; set; }
+
 
         
 
