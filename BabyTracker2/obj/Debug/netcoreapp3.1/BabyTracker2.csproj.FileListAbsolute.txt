@@ -252,3 +252,8 @@ D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTrack
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\Feedings\Details.cshtml.g.cs
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\Feedings\Edit.cshtml.g.cs
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\Feedings\Index.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\BabyInfoes1\Create.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\BabyInfoes1\Delete.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\BabyInfoes1\Details.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\BabyInfoes1\Edit.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker2\obj\Debug\netcoreapp3.1\Razor\Views\BabyInfoes1\Index.cshtml.g.cs
