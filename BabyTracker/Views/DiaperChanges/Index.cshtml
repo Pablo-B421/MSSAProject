@@ -16,6 +16,9 @@
                 @Html.DisplayNameFor(model => model.NumberofDiaperChanges)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.BabyInfo)
             </th>
             <th></th>
@@ -28,11 +31,14 @@
                 @Html.DisplayFor(modelItem => item.NumberofDiaperChanges)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.BabyInfo.BabyName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.DiaperChangeID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DiaperChangeID">Details</a> |
+                
                 <a asp-action="Delete" asp-route-id="@item.DiaperChangeID">Delete</a>
             </td>
         </tr>

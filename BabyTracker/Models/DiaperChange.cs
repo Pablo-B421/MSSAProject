@@ -14,6 +14,9 @@ namespace BabyTracker.Models
         public int DiaperChangeID { get; set; }
         public int NumberofDiaperChanges { get; set; }
 
+        [DataType(DataType.Date)]
+        public DateTime Date { get; set; }
+
         public string BabyName { get; set; }
 
         [ForeignKey("BabyName")]
