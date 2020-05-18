@@ -376,3 +376,8 @@ D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTrack
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.dll
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.pdb
 D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\BabyTracker.genruntimeconfig.cache
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\Razor\Views\DiaperChanges1\Create.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\Razor\Views\DiaperChanges1\Delete.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\Razor\Views\DiaperChanges1\Details.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\Razor\Views\DiaperChanges1\Edit.cshtml.g.cs
+D:\Documents\Embry Riddle\MSSA\Project Repo\VersionControl\MSSAProject\BabyTracker\obj\Debug\netcoreapp3.1\Razor\Views\DiaperChanges1\Index.cshtml.g.cs
